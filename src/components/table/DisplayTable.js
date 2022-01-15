@@ -16,7 +16,7 @@ function DisplayTable(props) {
 
       {showAddUserModal &&
         <AddUserModal addUserModalHideandShow={addUserModalHideandShow} />}
-      <Button variant="warning" className="mb-2" onClick={setS} >
+      <Button variant="warning" className="mb-2" onClick={setshowAddUserModal} >
         Add User{" "}
         <ion-icon style={{ fontSize: "24px" }} name="person-add-outline" />
       </Button>
